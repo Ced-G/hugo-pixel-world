@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="grass" id="About">
+  <div class="content">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    {{ range .Pages }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    {{ end }}
+  </div>
+  <img id="fox" src="/img/animals/fox-sprite-sheet.png" alt="fox">
+  <div id="canvas-container">
+    <canvas id="fox-canvas"></canvas>
+  </div>
+</div>
+
+{{ partialCached "head/fox.html" . }}
+
+{{ end }}

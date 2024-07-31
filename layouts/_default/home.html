@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="sky" id="Home">
+  <div class="home">
+    <!-- <div class="socials">
+      <a href="https://www.linkedin.com/in/cedric-g/" class="fa fa-linkedin social-item"></a>
+      <a href="https://github.com/Ced-G/" class="fa fa-github social-item"></a>
+    </div> -->
+    {{ partialCached "params/author.html" . }}
+  </div>
+
+  <img src="img/clouds/cloud.png" alt="This is a cloud" class="cloud-1" />
+  <img src="img/clouds/cloud_2.png" alt="This is a cloud" class="cloud-2" />
+  <img src="img/clouds/cloud_3.png" alt="This is a cloud" class="cloud-3" />
+  <img src="img/clouds/cloud_4.png" alt="This is a cloud" class="cloud-4" />
+  <div class="duck-container">
+    <div class="duck">
+    </div>
+  </div>
+  <img src="img/clouds/cloud_4.png" alt="This is a cloud" class="cloud-5" />
+  <img src="img/clouds/cloud_3.png" alt="This is a cloud" class="cloud-6" />
+  <img src="img/clouds/cloud_2.png" alt="This is a cloud" class="cloud-7" />
+  <img src="img/clouds/cloud.png" alt="This is a cloud" class="cloud-8" />
+</div>
+
+{{ partialCached "head/duck.html" . }}
+
+
+{{ end }}

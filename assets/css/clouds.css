@@ -1,0 +1,163 @@
+.cloud-1 {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud1 12s linear infinite; /* adjust the duration as needed */
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud1 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-2 {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud2 15s linear infinite; /* adjust the duration as needed */
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud2 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-3 {
+    position: absolute;
+    left: 0;
+    top: 60%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud3 20s linear infinite; /* adjust the duration as needed */
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud3 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-4 {
+    position: absolute;
+    left: -500px;
+    top: 80%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud4 17s linear infinite; /* adjust the duration as needed */
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud4 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-5 {
+    position: absolute;
+    left: -500px;
+    top: 20%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud5 17s linear infinite; /* adjust the duration as needed */
+    animation-delay: 4s;
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud5 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-6 {
+    position: absolute;
+    left: -500px;
+    top: 40%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud6 20s linear infinite; /* adjust the duration as needed */
+    animation-delay: 3s;
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud6 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-7 {
+    position: absolute;
+    left: -500px;
+    top: 60%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud7 12s linear infinite; /* adjust the duration as needed */
+    animation-delay: 8s;
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud7 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}
+
+.cloud-8 {
+    position: absolute;
+    left: -500px;
+    top: 80%;
+    height: auto;
+    width: 500px;
+    transform: translateY(-50%);
+    animation: moveCloud8 15s linear infinite; /* adjust the duration as needed */
+    animation-delay: 5s;
+    filter: brightness(var(--cloud-brightness));
+}
+
+@keyframes moveCloud8 {
+    0% {
+        left: -500px; /* adjust initial position */
+    }
+    100% {
+        left: calc(100% + 500px); /* adjust final position */
+    }
+}

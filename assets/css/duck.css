@@ -1,0 +1,66 @@
+.duck {
+  background-image: url("../img/animals/duck_sprite_sheet.png");
+  background-size: auto 100%;
+  width: 92px;
+  height: 84px;
+  will-change: background-position;
+
+  animation-name: fly-cycle;
+  animation-timing-function: steps(3);
+  animation-iteration-count: infinite;
+  animation-duration: 0.4s;
+  filter: brightness(var(--cloud-brightness));
+}
+
+.duck-container {
+  position: absolute;
+  top: 70%;
+  left: -10%;
+  will-change: transform;
+
+  animation-name: fly-right-one;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-delay: 1s;
+}
+
+@keyframes fly-cycle {
+  100% {
+    background-position: -276px 0;
+  }
+}
+
+@keyframes fly-right-one {
+  0% {
+    transform: translateX(-10vw);
+  }
+
+  10% {
+    transform: translateY(2vh) translateX(10vw);
+  }
+
+  20% {
+    transform: translateY(0vh) translateX(30vw);
+  }
+
+  30% {
+    transform: translateY(4vh) translateX(50vw);
+  }
+
+  40% {
+    transform: translateY(2vh) translateX(70vw);
+  }
+
+  50% {
+    transform: translateY(0vh) translateX(90vw);
+  }
+
+  60% {
+    transform: translateY(0vh) translateX(110vw);
+  }
+
+  100% {
+    transform: translateY(0vh) translateX(110vw);
+  }
+}
