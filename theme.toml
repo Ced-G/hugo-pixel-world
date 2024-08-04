@@ -1,10 +1,10 @@
 name = 'Theme name'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/Ced-G/hugo-pixel-world/blob/main/LICENSE'
+description = 'A hugo theme with a lively comforting pixel ambience'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/Ced-G/hugo-pixel-world'
 
 # If you have a running demo of the theme
 demosite = 'https://owner.github.io/repo'
