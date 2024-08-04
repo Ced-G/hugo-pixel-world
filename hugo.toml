@@ -11,6 +11,7 @@ weight = 10
 name = 'Posts'
 pageRef = '/posts'
 weight = 20
+content = 'test'
 
 [[menus.main]]
 name = 'Tags'

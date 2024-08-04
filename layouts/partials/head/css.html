@@ -1,4 +1,4 @@
-{{- $stylesheets := slice "css/style.css" "css/duck.css" "css/clouds.css" }}
+{{- $stylesheets := slice "css/style.css" "css/main.css" "css/duck.css" "css/clouds.css" }}
 {{- range $stylesheet := $stylesheets }}
   {{- with resources.Get $stylesheet }}
     {{- if eq hugo.Environment "development" }}

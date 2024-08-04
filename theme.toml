@@ -2,6 +2,7 @@ name = 'Theme name'
 license = 'MIT'
 licenselink = 'https://github.com/Ced-G/hugo-pixel-world/blob/main/LICENSE'
 description = 'A hugo theme with a lively comforting pixel ambience'
+summaryLength = 5
 
 # The home page of the theme, where the source can be found
 homepage = 'https://github.com/Ced-G/hugo-pixel-world'

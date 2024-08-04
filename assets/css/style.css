@@ -2,6 +2,7 @@
 :root {
   --bg-color: #87ceeb; /* Background color */
   --text-color: #112d4e; /* Text color */
+  --text-color-lighter: #294260; /* Text color */
   --accent-color: #3f72af; /* Accent color */
   --accent-color-2: #f9f7f7; /* Light accent color */
   --cloud-brightness: 1; /* Brightness of the clouds */
